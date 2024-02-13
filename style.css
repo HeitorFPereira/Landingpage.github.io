@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --fundo: #0A192F;
+    --verde: #00909F;
+    --branco1: #CCD7F7;
+    --branco2: #8892B0;
+    --branco3: #646C89;
+
+    --fonte-padrao: Arial;
+    --fonte-destaque: 'M PLUS Code Latin', monospace;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A192F;
+}
+
+header{
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--fundo);
+    height: 8vh;
+    margin: 0;
+    font-family: var(--fonte-destaque);
+    color: var(--branco1);
+}
+
+nav > img{
+    height: 50px;
+    padding-right: 800px;
+    padding-left: 50px;
+}
+
+nav > ul{
+    cursor: pointer;
+    padding-right: 0;
+}
+
+span{
+    color: var(--verde);
+}
+
+.lista-inline{
+   margin-right: 20px;
+}
+
+.lista-inline > li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.lista-inline > a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--branco1);
+    padding-right: 20px;
+    text-align: center;
+}
+
+.resume{
+    border-style: solid;
+    border-color: var(--verde);
+    border-radius: 4px;
+    padding: 10px;
+    color: #00909F;
+    font-weight: bold;
+}
+
+.resume:hover{
+    background-color: #00909F;
+    color: #0A192F;    
+}
+
+.lista-inline > a:hover{
+    color: var(--verde)
+}
+
+main{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.hello{
+    color: var(--verde);
+    font-family: var(--fonte-destaque);
+}
+
+h1{
+    font-size: 4em;
+    color: var(--branco1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub{
+    color: var(--branco2);
+}
+
+.text{
+    color: var(--branco3);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+strong{
+    font-weight: bold;
+    color: #00909F;
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 100px;
+    font-family: var(--fonte-destaque);
+    color: #00909F;
+    border-color: #00909F;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 6px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover{
+    padding: 7px;
+    animation-duration: 2s;
+    background-color: #00909F;
+    color: #0A192F;
+    text-decoration: underline;
+}
+
+
+
+
